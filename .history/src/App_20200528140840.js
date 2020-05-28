@@ -1,7 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-const API_KEY = process.env.REACT_APP_APIKEY;
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
