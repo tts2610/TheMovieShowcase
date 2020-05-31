@@ -243,10 +243,9 @@ figure.effect-marley:hover p {
     font-size: x-large;
 }
 
-
-/* .filter_col {
+.filter_col {
     border-right: white 1px solid;
-} */
+}
 
 .nothing-prompt {
     color: white;

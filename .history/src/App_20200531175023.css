@@ -243,10 +243,9 @@ figure.effect-marley:hover p {
     font-size: x-large;
 }
 
-
-/* .filter_col {
+.filter_col {
     border-right: white 1px solid;
-} */
+}
 
 .nothing-prompt {
     color: white;
@@ -256,7 +255,6 @@ figure.effect-marley:hover p {
 #range-slider {
     font-family: "Comic Neue", cursive !important;
     font-weight: 900;
-    border-bottom: 1px white solid;
 }
 
 

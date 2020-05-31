@@ -31,9 +31,9 @@ export default function Card({ movie }) {
     );
   });
 
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 1500 });
+  // }, []);
 
   return (
     <figure data-aos="zoom-in-up" className="effect-marley">

@@ -32,7 +32,7 @@ export default function Card({ movie }) {
   });
 
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init();
   }, []);
 
   return (

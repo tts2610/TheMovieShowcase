@@ -28,7 +28,7 @@ export default class App extends Component {
       loading: true,
       currentPage: 1,
       currentCategory: "popular",
-      smallLoading: false,
+      smallLoading: true,
       yearFiltered: [1990, 2020],
       ratingFiltered: [0, 5],
     };
