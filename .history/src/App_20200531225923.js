@@ -96,8 +96,8 @@ export default class App extends Component {
     let newUrl = this.movie_db_category[item];
     this.setState(
       {
-        yearFiltered: [],
-        ratingFiltered: [],
+        yearFiltered: [2019, 2020],
+        ratingFiltered: [3, 5],
         apiUrl: newUrl.concat(`&page=1`),
         currentCategory: item,
       },
@@ -215,7 +215,7 @@ export default class App extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://images.metadata.sky.com/pd-image/73b8e79a-efdc-4c8d-9951-3687139b2d75/16-9"
+                  src="https://img.over-blog-kiwi.com/4/65/64/68/20200412/ob_dfb08c_lyuvdztgva8tmidalnamrys7fdf.jpg#width=1600&height=900"
                   alt="Third slide"
                 />
 

@@ -39,8 +39,8 @@ export default class App extends Component {
       currentPage: 1,
       currentCategory: "popular",
       smallLoading: false,
-      yearFiltered: [1990, 2020],
-      ratingFiltered: [0, 5],
+      yearFiltered: [],
+      ratingFiltered: [],
       searchString: "",
     };
     this.movie_db_category = {
@@ -96,8 +96,8 @@ export default class App extends Component {
     let newUrl = this.movie_db_category[item];
     this.setState(
       {
-        yearFiltered: [],
-        ratingFiltered: [],
+        yearFiltered: [2019, 2020],
+        ratingFiltered: [3, 5],
         apiUrl: newUrl.concat(`&page=1`),
         currentCategory: item,
       },

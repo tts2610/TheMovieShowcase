@@ -96,8 +96,8 @@ export default class App extends Component {
     let newUrl = this.movie_db_category[item];
     this.setState(
       {
-        yearFiltered: [],
-        ratingFiltered: [],
+        yearFiltered: [2019, 2020],
+        ratingFiltered: [3, 5],
         apiUrl: newUrl.concat(`&page=1`),
         currentCategory: item,
       },
@@ -201,7 +201,7 @@ export default class App extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://cdn.statically.io/img/images.wallpapersden.com/image/download/poster-of-avengers-endgame-movie_63830_1920x1080.jpg"
+                  src="https://images.wallpapersden.com/image/download/blade-runner-2049-poster_58681_1920x1080.jpg"
                   alt="Third slide"
                 />
 
