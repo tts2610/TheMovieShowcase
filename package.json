@@ -13,6 +13,7 @@
     "animate.css": "^4.1.0",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.5.0",
+    "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.0.1",
