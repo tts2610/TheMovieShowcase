@@ -72,7 +72,7 @@ export default function CardsList({
     }
     return (
       <div className="grid">
-        {[...new Set(filterList)].map((element, key) => {
+        {filterList.map((element, key) => {
           return <Card key={`${key}`} movie={element} />;
         })}
       </div>
