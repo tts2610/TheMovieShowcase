@@ -254,7 +254,7 @@ figure.effect-marley:hover p {
 }
 
 #range-slider {
-    font-family: "Roboto Slab", serif;
+    font-family: "Comic Neue", cursive !important;
     font-weight: 900;
     border-bottom: 1px white solid;
 }
