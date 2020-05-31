@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button } from "react-bootstrap";
-// import Aos from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import { withStyles } from "@material-ui/core/styles";
@@ -31,12 +31,12 @@ export default function Card({ movie }) {
     );
   });
 
-  // useEffect(() => {
-  //   Aos.init({ duration: 1500, once: false });
-  // }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: false });
+  }, []);
 
   return (
-    <figure className="effect-marley">
+    <figure data-aos="fade-up" className="effect-marley">
       <img src={movie.image} alt={movie.image} />
       <figcaption>
         <p className="title">

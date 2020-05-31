@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button } from "react-bootstrap";
-// import Aos from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import { withStyles } from "@material-ui/core/styles";
@@ -32,7 +32,7 @@ export default function Card({ movie }) {
   });
 
   // useEffect(() => {
-  //   Aos.init({ duration: 1500, once: false });
+  //   Aos.init({ duration: 1500 });
   // }, []);
 
   return (
