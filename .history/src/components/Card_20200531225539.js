@@ -59,9 +59,7 @@ export default function Card({ movie }) {
           <i className="far fa-calendar-edit"></i> {movie.release_date}
         </p>
         <p className="genres">{genresBtnList}</p>
-        <a href="/" onClick={(e) => e.preventDefault()}>
-          View more
-        </a>
+        <a href="/" onClick={(e)=>e.preventDefault();}>View more</a>
       </figcaption>
     </figure>
   );
