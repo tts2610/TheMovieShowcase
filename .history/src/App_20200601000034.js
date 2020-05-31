@@ -96,6 +96,8 @@ export default class App extends Component {
     let newUrl = this.movie_db_category[item];
     this.setState(
       {
+        yearFiltered: [1990, 2020],
+        ratingFiltered: [0, 5],
         apiUrl: newUrl.concat(`&page=1`),
         currentCategory: item,
       },
