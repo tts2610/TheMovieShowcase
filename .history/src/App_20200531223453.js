@@ -8,7 +8,6 @@ import {
   Navbar,
   Nav,
   FormControl,
-  Carousel,
   Button,
 } from "react-bootstrap";
 import CardsList from "./components/CardsList";
