@@ -96,8 +96,8 @@ export default class App extends Component {
     let newUrl = this.movie_db_category[item];
     this.setState(
       {
-        yearFiltered: [1990, 2020],
-        ratingFiltered: [0, 5],
+        yearFiltered: [],
+        ratingFiltered: [],
         apiUrl: newUrl.concat(`&page=1`),
         currentCategory: item,
       },
@@ -184,7 +184,7 @@ export default class App extends Component {
         </Navbar>
         <Container>
           <Row>
-            <Carousel>
+            {/* <Carousel>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
@@ -227,7 +227,7 @@ export default class App extends Component {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
           </Row>
           <Row>
             <Col sm={3} className="mt-5">
@@ -236,7 +236,7 @@ export default class App extends Component {
                 <RatingSlider ratingSliderChanged={this.ratingSliderChanged} />
               </div>
             </Col>
-            <Col sm={9} className="mt-5 mainContent">
+            <Col sm={9} className="mt-5">
               <TabsList tabChanged={this.tabChanged} />
 
               <CardsList
