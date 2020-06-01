@@ -102,7 +102,7 @@ export default function Card({ movie }) {
             <YouTube
               id="trailer"
               video={movieTrailer.key}
-              width="600px"
+              width="500px"
               height="340px"
               autoplay
             />
