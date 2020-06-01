@@ -296,3 +296,8 @@ figure.effect-marley:hover p {
 .mainContent {
     min-height: 100vh;
 }
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
